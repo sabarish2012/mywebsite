@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(42, 128, 165);
+}
+.comic {
+  width: 25%;
+  border: solid;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+img {
+  width: 100%;
+}
+
+.color1 {
+  background-color: blueviolet;
+}
+.color2 {
+  background-color: blue;
+}
+.color3 {
+  background-color: red;
+}
+.color4 {
+  background-color: yellow;
+}
+.color5 {
+  background-color: bisque;
+}
+.color6 {
+  background-color: rgba(0, 255, 234, 0.792);
+}
+.color7 {
+  background-color: rgb(128, 32, 0);
+}
+.parents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+h2:hover{
+  transform: translateX(40%);
+}
+h2{
+  transition: transform 3s ease .1s;
+}

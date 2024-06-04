@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+}
+
+.parent {
+  display: grid;
+  height: 100vh;
+  grid-template-areas: "header header" "content sidebar" "footer footer";
+  grid-template-rows: 15% auto 10%;
+  grid-template-columns: auto 20%;
+}
+.head {
+  background-image: linear-gradient(#fff9d0, #caf4ff, #a0deff, #5ab2ff);
+  display: flex;
+  justify-content: flex-end;
+
+  grid-area: header;
+}
+.con {
+    
+     animation-name: san;
+     animation-iteration-count: infinite;
+     animation-duration: 5s;
+     
+  
+}
+.bar {
+  background-image: linear-gradient(#e1f0da, #d4e7c5, #bfd8af, #99bc85);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  grid-area: sidebar;
+}
+.foot {
+  background-image: linear-gradient(#beadfa, #d0bfff, #dfccfb, #fff8c9);
+  display: flex;
+  align-items: center;
+  grid-area: footer;
+}
+.name {
+  background-image: linear-gradient(#FFC96F,#FFE8C8);
+  border: solid;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  transition: background-image 2s ease-in .2s;
+}
+.name:hover{
+      background-image: linear-gradient(#AD88C6,#E1AFD1);
+    
+}
+.name a:hover{
+  color:#C40C0C;
+}
+.name a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poetsen One", sans-serif;
+   transition:color 4s ease-in .1s;
+}
+.card {
+  width: 20%;
+  background-color: yellow;
+  border: solid;
+  margin: 1%;
+  border-radius: 20px;
+  transition: transform 3s ease .1s;
+}
+.card:hover{
+  transform: rotate(5deg);  
+}
+h1{
+  text-align: center;
+  transition: transform 2s ease-in-out .1s;
+}
+h1:hover{
+  transform: scale(1.1);
+}
+.card img {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.desc {
+  padding: 3%;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  grid-area: content;
+}
+
+.foot img {
+  width: 40px;
+ height: 40px;
+  margin-left: 12px;
+}
+.foot p:hover{
+      transform: scaleY(1.5);
+}
+.foot p{
+  transition: transform 3s ease .0s;
+}
+
+@keyframes san{
+      0%{
+        background-color: #E49BFF;
+      }
+      50%{
+        background-color: #EE4E4E;
+      }
+      100%{
+        background-color: #FF5580;
+      }
+}

@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(81, 30, 210);
+}
+ul {
+  list-style-type: circle;
+}
+p {
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+}
+li {
+  font-size: 30px;
+}

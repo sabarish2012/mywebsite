@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(to bottom right,#C40C0C,#FF6500,#FF8A08,#FFC100);
+}
+p{
+    font-family: "Jaini", system-ui;
+    font-size: 35px;
+    margin-left: 20px;
+}
+li{
+    font-size: 30px;
+}
+img{
+    width: 25%;
+}
+
+h2{
+    text-align: center;
+}
+.parent{
+    display: flex;
+  
+
+}

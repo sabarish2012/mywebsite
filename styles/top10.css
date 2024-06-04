@@ -1,0 +1,14 @@
+body {
+  background-image: linear-gradient(#ffebb2, #e59be9, #d862bc, #8644a2);
+}
+li {
+     font-family: "Anton", sans-serif;
+    
+}
+p {
+  font-family: "Libre Baskerville", serif;
+  margin-bottom: 50px;
+  padding: 10px;
+
+}
+
